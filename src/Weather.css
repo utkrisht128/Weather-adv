@@ -1,0 +1,4525 @@
+body {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-family: 'Jost', sans-serif;
+    overflow-y: scroll;
+}
+
+.body {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    height: 51rem;
+    width: 100%;
+    background: url(./Images/clear_sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    font-family: 'Jost', sans-serif;
+    /* overflow-y: scroll; */
+}
+
+.body2 {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    height: 898px;
+    width: 100%;
+    background: url(./Images/rainy_day.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    font-family: 'Jost', sans-serif;
+    /* overflow-y: scroll; */
+}
+
+.body3 {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    height: 898px;
+    width: 100%;
+    background: url(./Images/cloudy_day.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    font-family: 'Jost', sans-serif;
+    /* overflow-y: scroll; */
+}
+
+.body4 {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    height: 898px;
+    width: 100%;
+    background: url(./Images/thunder_storm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    font-family: 'Jost', sans-serif;
+    /* overflow-y: scroll; */
+}
+
+.header {
+    /* border: 2px solid skyblue; */
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+#search-form {
+    height: 10px;
+}
+
+#search-input {
+    height: 40px;
+    width: 360px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.708);
+}
+
+#search-button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+#search-button:hover {
+    cursor: pointer;
+    background: rgba(128, 128, 128, 0.347);
+}
+
+.loc {
+    align-items: centers;
+    /* margin: 2px 2px; */
+}
+
+#main {
+    display: flex;
+    height: 27rem;
+}
+
+#main .main-img {
+    background: url(./Images/sun.png);
+    background-repeat: no-repeat;
+    background-size: 40vh;
+    background-position-y: center;
+    background-position-x: center;
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 300px;
+    margin: 40px 120px;
+    padding: 10px 120px;
+    animation: rotate 5s infinite ease-in-out;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.main-img:hover {
+    transition: ease-in-out;
+    transform: rotate3d(360deg);
+}
+
+#main .main-img2 {
+    background: url(./Images/sun.png);
+    background-repeat: no-repeat;
+    background-size: 40vh;
+    background-position-y: center;
+    background-position-x: center;
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 300px;
+    margin: 40px 120px;
+    padding: 10px 120px;
+    z-index: 101;
+}
+
+#main .main-img3 {
+    background: url(./Images/sun\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 40vh;
+    background-position-y: center;
+    background-position-x: center;
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 300px;
+    margin: 40px 120px;
+    padding: 10px 120px;
+    z-index: 101;
+}
+
+#main .main-img4 {
+    background: url(./Images/rainy-day.png);
+    background-repeat: no-repeat;
+    background-size: 40vh;
+    background-position-y: center;
+    background-position-x: center;
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 300px;
+    margin: 40px 120px;
+    padding: 10px 120px;
+    z-index: 101;
+}
+
+#main .main-img5 {
+    background: url(./Images/rainy-day.png);
+    background-repeat: no-repeat;
+    background-size: 40vh;
+    background-position-y: center;
+    background-position-x: center;
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 300px;
+    margin: 40px 120px;
+    padding: 10px 120px;
+    z-index: 101;
+}
+
+#main .main-img6 {
+    background: url(./Images/cloudy-day.png);
+    background-repeat: no-repeat;
+    background-size: 40vh;
+    background-position-y: center;
+    background-position-x: center;
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 300px;
+    margin: 40px 120px;
+    padding: 10px 120px;
+    z-index: 101;
+}
+
+#main .main-img7 {
+    background: url(./Images/storm.png);
+    background-repeat: no-repeat;
+    background-size: 40vh;
+    background-position-y: center;
+    background-position-x: center;
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 300px;
+    margin: 40px 120px;
+    padding: 10px 120px;
+}
+
+/* #main #main-img img{
+    height: 300px;
+    width: 300px;
+    margin: 40px 120px;  
+    padding: 10px 120px;
+  }  */
+#main #main-info {
+    margin: 2px 10px;
+    padding: 2px 100px;
+    position: absolute;
+    right: 10%;
+    font-size: 20px;
+    /* border: 2px solid black; */
+    background-color: rgba(255, 255, 255, 0.258);
+}
+
+#main #main-info .stats {
+    display: flex;
+}
+
+#main #main-info .stats img {
+    height: 30px;
+    width: 30px;
+    margin: 19px 5px;
+    padding: 2px 5px;
+}
+
+.second-container {
+    display: flex;
+    /* border: 2px solid black; */
+    /* margin: 25px 2px; */
+    /* background-color: rgba(255, 255, 255, 0.281); */
+}
+
+.days {
+    height: 180px;
+    width: 200px;
+    margin: 10px 10px;
+    padding: 10px 50px;
+    text-align: center;
+    background: url("./Images/sunny.png");
+    background-repeat: no-repeat;
+    background-size: 20vh;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.days:hover {
+    /* height:100px; */
+    /* background-color: rgba(255, 255, 255, 0.218); */
+    transform: scale(1.1);
+}
+
+.days2 {
+    height: 160px;
+    width: 200px;
+    margin: 10px 10px;
+    padding: 10px 50px;
+    text-align: center;
+    /* border: 2px solid red; */
+    background: url("./Images/sun.png");
+    background-repeat: no-repeat;
+    background-size: 20vh;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.days2:hover {
+    transform: scale(1.1);
+}
+
+.days3 {
+    height: 160px;
+    width: 200px;
+    margin: 10px 10px;
+    padding: 10px 50px;
+    text-align: center;
+    /* border: 2px solid red; */
+    background: url("./Images/sun\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: 20vh;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.days3:hover {
+    transform: scale(1.1);
+}
+
+.days4 {
+    height: 160px;
+    width: 200px;
+    margin: 10px 10px;
+    padding: 10px 50px;
+    text-align: center;
+    /* border: 2px solid red; */
+    background: url("./Images/rainy-day.png");
+    background-repeat: no-repeat;
+    background-size: 20vh;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.days4:hover {
+    transform: scale(1.1);
+}
+
+.days5 {
+    height: 160px;
+    width: 200px;
+    margin: 10px 10px;
+    padding: 10px 50px;
+    text-align: center;
+    /* border: 2px solid red; */
+    background: url("./Images/rainy-day.png");
+    background-repeat: no-repeat;
+    background-size: 20vh;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.days5:hover {
+    transform: scale(1.1);
+}
+
+.days6 {
+    height: 160px;
+    width: 200px;
+    margin: 10px 10px;
+    padding: 10px 50px;
+    text-align: center;
+    /* border: 2px solid red; */
+    background: url("./Images/cloudy-day.png");
+    background-repeat: no-repeat;
+    background-size: 20vh;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.days6:hover {
+    transform: scale(1.1);
+}
+
+.days7 {
+    height: 160px;
+    width: 200px;
+    margin: 10px 10px;
+    padding: 10px 50px;
+    text-align: center;
+    /* border: 2px solid red; */
+    background: url("./Images/storm.png");
+    background-repeat: no-repeat;
+    background-size: 20vh;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.days7:hover {
+    transform: scale(1.1);
+}
+
+.days img {
+    height: 100px;
+    width: 100px;
+}
+.days h4 {
+    margin: 170px 19px;
+    font-size: 1rem;
+}
+.days .dn {
+    margin: -24rem 2rem;
+    font-size: 1rem;
+}
+.days2 h4 {
+    margin: 170px 19px;
+    font-size: 1rem;
+}
+.days2 .dn {
+    margin: -24rem 2rem;
+    font-size: 1rem;
+}
+.days3 h4 {
+    margin: 170px 19px;
+    font-size: 1rem;
+}
+.days3 .dn {
+    margin: -24rem 2rem;
+    font-size: 1rem;
+}
+.days4 h4 {
+    margin: 170px 19px;
+    font-size: 1rem;
+}
+.days4 .dn {
+    margin: -24rem 2rem;
+    font-size: 1rem;
+}
+.days5 h4 {
+    margin: 170px 19px;
+    font-size: 1rem;
+}
+.days5 .dn {
+    margin: -24rem 2rem;
+    font-size: 1rem;
+}
+.days6 h4 {
+    margin: 170px 19px;
+    font-size: 1rem;
+}
+.days6 .dn {
+    margin: -24rem 2rem;
+    font-size: 1rem;
+}
+.days7 h4 {
+    margin: 170px 19px;
+    font-size: 1rem;
+}
+.days7 .dn {
+    margin: -24rem 2rem;
+    font-size: 1rem;
+}
+
+
+@media (min-width:1300px) and (max-width:1400px) {
+    .body {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 61rem;
+        width: 98rem;
+        background: url(./Images/clear_sky.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body2 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 61rem;
+        width: 1360px;
+        background: url(./Images/rainy_day.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body3 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 61rem;
+        width: 1360px;
+        background: url(./Images/cloudy_day.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body4 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 61rem;
+        width: 1360px;
+        background: url(./Images/thunder_storm.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .second-container {
+        display: flex;
+        /* border: 2px solid black; */
+        margin-top: 40px;
+        padding-right: 10px;
+        /* background-color: rgba(255, 255, 255, 0.281); */
+    }
+
+    .days {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 50px;
+        text-align: center;
+        background: url("./Images/sunny.png");
+        background-repeat: no-repeat;
+        background-size: 15vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days2 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 50px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/sun.png");
+        background-repeat: no-repeat;
+        background-size: 20vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days3 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 50px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/sun\ \(1\).png");
+        background-repeat: no-repeat;
+        background-size: 20vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days4 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 50px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/rainy-day.png");
+        background-repeat: no-repeat;
+        background-size: 20vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+
+    .days5 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 50px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/rainy-day.png");
+        background-repeat: no-repeat;
+        background-size: 20vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+
+    .days6 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 50px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/cloudy-day.png");
+        background-repeat: no-repeat;
+        background-size: 20vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days7 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 50px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/storm.png");
+        background-repeat: no-repeat;
+        background-size: 20vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days h4 {
+        font-size: 1.5rem;
+    }
+
+    .days .dn {
+        margin: -26rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days2 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days2 .dn {
+        margin: -26rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days3 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days3 .dn {
+        margin: -26rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days4 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days4 .dn {
+        margin: -26rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days5 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days5 .dn {
+        margin: -26rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days6 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days6 .dn {
+        margin: -26rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days7 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days7 .dn {
+        margin: -26rem 2rem;
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (min-width:1200px) and (max-width:1300px) {
+    .body {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 61rem;
+        width: 1360px;
+        background: url(./Images/clear_sky.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body2 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 61rem;
+        width: 1360px;
+        background: url(./Images/rainy_day.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body3 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 61rem;
+        width: 1360px;
+        background: url(./Images/cloudy_day.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body4 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 61rem;
+        width: 1360px;
+        background: url(./Images/thunder_storm.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    #main {
+        display: flex;
+        height: 29rem;
+        /* border: 2px solid black; */
+    }
+
+    #main #main-info {
+        margin: 2px 10px;
+        padding: 2px 100px;
+        position: absolute;
+        right: 10%;
+        font-size: 20px;
+        /* border: 2px solid black; */
+        background-color: rgba(255, 255, 255, 0.258);
+    }
+
+    .second-container {
+        display: flex;
+        /* border: 2px solid black; */
+        margin-top: 40px;
+        padding-right: 10px;
+        /* background-color: rgba(255, 255, 255, 0.281); */
+    }
+
+    .days {
+        height: 14rem;
+        width: 9rem;
+        margin: 10px 10px;
+        padding: 10px 10px;
+        /* border: 2px solid black; */
+        text-align: center;
+        background: url("./Images/sunny.png");
+        background-repeat: no-repeat;
+        background-size: 12vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days2 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 50px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/sun.png");
+        background-repeat: no-repeat;
+        background-size: 20vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days3 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 50px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/sun\ \(1\).png");
+        background-repeat: no-repeat;
+        background-size: 20vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days4 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 50px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/rainy-day.png");
+        background-repeat: no-repeat;
+        background-size: 20vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+
+    .days5 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 50px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/rainy-day.png");
+        background-repeat: no-repeat;
+        background-size: 20vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+
+    .days6 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 50px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/cloudy-day.png");
+        background-repeat: no-repeat;
+        background-size: 20vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days7 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 50px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/storm.png");
+        background-repeat: no-repeat;
+        background-size: 20vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days h4 {
+        font-size: 1.5rem;
+    }
+
+    .days .dn {
+        margin: -22rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days2 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days2 .dn {
+        margin: -22rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days3 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days3 .dn {
+        margin: -22rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days4 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days4 .dn {
+        margin: -22rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days5 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days5 .dn {
+        margin: -22rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days6 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days6 .dn {
+        margin: -22rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days7 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days7 .dn {
+        margin: -22rem 2rem;
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (min-width:1100px) and (max-width:1200px) {
+    .body {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 57rem;
+        width: 99rem;
+        background: url(./Images/clear_sky.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body2 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 57rem;
+        width: 99rem;
+        background: url(./Images/rainy_day.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body3 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 57rem;
+        width: 99rem;
+        background: url(./Images/cloudy_day.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body4 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 57rem;
+        width: 99rem;
+        background: url(./Images/thunder_storm.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .second-container {
+        display: flex;
+        /* border: 2px solid black; */
+        margin-top: 80px;
+        padding-right: 10px;
+        /* background-color: rgba(255, 255, 255, 0.281); */
+    }
+
+    .days {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 50px;
+        text-align: center;
+        background: url("./Images/sunny.png");
+        background-repeat: no-repeat;
+        background-size: 12vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days2 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 50px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/sun.png");
+        background-repeat: no-repeat;
+        background-size: 20vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days3 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 50px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/sun\ \(1\).png");
+        background-repeat: no-repeat;
+        background-size: 20vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days4 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 50px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/rainy-day.png");
+        background-repeat: no-repeat;
+        background-size: 20vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+
+    .days5 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 50px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/rainy-day.png");
+        background-repeat: no-repeat;
+        background-size: 20vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+
+    .days6 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 50px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/cloudy-day.png");
+        background-repeat: no-repeat;
+        background-size: 20vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days7 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 50px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/storm.png");
+        background-repeat: no-repeat;
+        background-size: 20vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days h4 {
+        font-size: 1.5rem;
+    }
+
+    .days .dn {
+        margin: -24rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days2 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days2 .dn {
+        margin: -24rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days3 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days3 .dn {
+        margin: -24rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days4 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days4 .dn {
+        margin: -24rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days5 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days5 .dn {
+        margin: -24rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days6 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days6 .dn {
+        margin: -24rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days7 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days7 .dn {
+        margin: -24rem 2rem;
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (min-width:1000px) and (max-width:1100px) {
+    body {
+        overflow-y: scroll;
+    }
+
+    .body {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 87rem;
+        width: 87rem;
+        background: url(./Images/clear_sky.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body2 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 87rem;
+        width: 87rem;
+        background: url(./Images/rainy_day.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body3 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 87rem;
+        width: 87rem;
+        background: url(./Images/cloudy_day.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body4 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 87rem;
+        width: 87rem;
+        background: url(./Images/thunder_storm.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    #main {
+        display: block;
+        height: 56rem;
+        /* border: 2px solid black; */
+    }
+
+    #main .main-img {
+        background: url(./Images/sun.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+        animation: rotate 5s infinite ease-in-out;
+    }
+
+    @keyframes rotate {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .main-img:hover {
+        transition: ease-in-out;
+        transform: rotate3d(360deg);
+    }
+
+    #main .main-img2 {
+        background: url(./Images/sun.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+    }
+
+    #main .main-img3 {
+        background: url(./Images/sun\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+    }
+
+    #main .main-img4 {
+        background: url(./Images/rainy-day.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+    }
+
+    #main .main-img5 {
+        background: url(./Images/rainy-day.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+    }
+
+    #main .main-img6 {
+        background: url(./Images/cloudy-day.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+    }
+
+    #main .main-img7 {
+        background: url(./Images/storm.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+    }
+
+    /* #main #main-img img{
+        height: 300px;
+        width: 300px;
+        margin: 40px 120px;  
+        padding: 10px 120px;
+      }  */
+    #main #main-info {
+        margin: 2px 10px;
+        padding: 2px 100px;
+        position: absolute;
+        right: 13%;
+        font-size: 20px;
+        /* border: 2px solid black; */
+        background-color: rgba(255, 255, 255, 0.258);
+    }
+
+    #main #main-info .stats {
+        display: flex;
+    }
+
+    #main #main-info .stats img {
+        height: 2rem;
+        width: 2rem;
+        margin: 1.5rem 5px;
+        padding: 2px 5px;
+    }
+
+    .second-container {
+        display: flex;
+        /* border: 2px solid black; */
+        height: 260px;
+        width: 73rem;
+        margin-top: 20px;
+        padding-right: 2rem;
+        position: absolute;
+        right: -14rem;
+        /* background-color: rgba(255, 255, 255, 0.281); */
+    }
+
+    .days {
+        height: 13rem;
+        width: 10rem;
+        margin: 10px 10px;
+        padding: 10px 35px;
+        /* border: 2px solid black; */
+        text-align: center;
+        background: url("./Images/sunny.png");
+        background-repeat: no-repeat;
+        background-size: 12vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days2 {
+        height: 13rem;
+        width: 10rem;
+        margin: 10px 10px;
+        padding: 10px 35px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/sun.png");
+        background-repeat: no-repeat;
+        background-size: 12vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days3 {
+        height: 13rem;
+        width: 10rem;
+        margin: 10px 10px;
+        padding: 10px 35px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/sun\ \(1\).png");
+        background-repeat: no-repeat;
+        background-size: 12vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days4 {
+        height: 13rem;
+        width: 10rem;
+        margin: 10px 10px;
+        padding: 10px 35px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/rainy-day.png");
+        background-repeat: no-repeat;
+        background-size: 12vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+
+    .days5 {
+        height: 13rem;
+        width: 10rem;
+        margin: 10px 10px;
+        padding: 10px 35px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/rainy-day.png");
+        background-repeat: no-repeat;
+        background-size: 12vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+
+    .days6 {
+        height: 13rem;
+        width: 10rem;
+        margin: 10px 10px;
+        padding: 10px 35px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/cloudy-day.png");
+        background-repeat: no-repeat;
+        background-size: 12vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days7 {
+        height: 13rem;
+        width: 10rem;
+        margin: 10px 10px;
+        padding: 10px 35px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/storm.png");
+        background-repeat: no-repeat;
+        background-size: 12vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days h4 {
+        font-size: 1.3rem;
+    }
+
+    .days .dn {
+        margin: -24rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days2 h4 {
+        font-size: 1.3rem;
+    }
+
+    .days2 .dn {
+        margin: -24rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days3 h4 {
+        font-size: 1.3rem;
+    }
+
+    .days3 .dn {
+        margin: -24rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days4 h4 {
+        font-size: 1.3rem;
+    }
+
+    .days4 .dn {
+        margin: -24rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days5 h4 {
+        font-size: 1.3rem;
+    }
+
+    .days5 .dn {
+        margin: -24rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days6 h4 {
+        font-size: 1.3rem;
+    }
+
+    .days6 .dn {
+        margin: -24rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days7 h4 {
+        font-size: 1.3rem;
+    }
+
+    .days7 .dn {
+        margin: -24rem 2rem;
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (min-width:900px) and (max-width:1000px) {
+    body {
+        overflow-y: scroll;
+    }
+
+    .body {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 120rem;
+        width: 77rem;
+        background: url(./Images/clear_sky.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body2 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 120rem;
+        width: 77rem;
+        background: url(./Images/rainy_day.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body3 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 120rem;
+        width: 77rem;
+        background: url(./Images/cloudy_day.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body4 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 120rem;
+        width: 77rem;
+        background: url(./Images/thunder_storm.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    #main {
+        display: block;
+        height: 87rem;
+        /* border: 2px solid black; */
+    }
+
+    #main .main-img {
+        background: url(./Images/sun.png);
+        background-repeat: no-repeat;
+        background-size: 35vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 30rem;
+        width: 30rem;
+        margin: 60px 16rem;
+        padding: 10px 120px;
+        animation: rotate 5s infinite ease-in-out;
+    }
+
+    @keyframes rotate {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .main-img:hover {
+        transition: ease-in-out;
+        transform: rotate3d(360deg);
+    }
+
+    #main .main-img2 {
+        background: url(./Images/sun.png);
+        background-repeat: no-repeat;
+        background-size: 35vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 30rem;
+        width: 30rem;
+        margin: 60px 16rem;
+        padding: 10px 120px;
+    }
+
+    #main .main-img3 {
+        background: url(./Images/sun\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: 35vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 30rem;
+        width: 30rem;
+        margin: 60px 16rem;
+        padding: 10px 120px;
+    }
+
+    #main .main-img4 {
+        background: url(./Images/rainy-day.png);
+        background-repeat: no-repeat;
+        background-size: 35vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 30rem;
+        width: 30rem;
+        margin: 60px 16rem;
+        padding: 10px 120px;
+    }
+
+    #main .main-img5 {
+        background: url(./Images/rainy-day.png);
+        background-repeat: no-repeat;
+        background-size: 35vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 30rem;
+        width: 30rem;
+        margin: 60px 16rem;
+        padding: 10px 120px;
+    }
+
+    #main .main-img6 {
+        background: url(./Images/cloudy-day.png);
+        background-repeat: no-repeat;
+        background-size: 35vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 30rem;
+        width: 30rem;
+        margin: 60px 16rem;
+        padding: 10px 120px;
+    }
+
+    #main .main-img7 {
+        background: url(./Images/storm.png);
+        background-repeat: no-repeat;
+        background-size: 35vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 30rem;
+        width: 30rem;
+        margin: 60px 16rem;
+        padding: 10px 120px;
+    }
+
+    /* #main #main-img img{
+        height: 300px;
+        width: 300px;
+        margin: 40px 120px;  
+        padding: 10px 120px;
+      }  */
+    #main #main-info {
+        margin: 2px 10px;
+        padding: 2px 100px;
+        position: absolute;
+        right: -2rem;
+        font-size: 2rem;
+        /* border: 2px solid black; */
+        background-color: rgba(255, 255, 255, 0.258);
+    }
+
+    #main #main-info .stats {
+        display: flex;
+    }
+
+    #main #main-info .stats img {
+        height: 4rem;
+        width: 4rem;
+        margin: 2rem 5px;
+        padding: 2px 5px;
+    }
+
+    .second-container {
+        display: flex;
+        /* border: 2px solid black; */
+        height: 260px;
+        width: 1200px;
+        margin-top: 80px;
+        padding-right: 25px;
+        /* background-color: rgba(255, 255, 255, 0.281); */
+    }
+
+    .days {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 20px;
+        text-align: center;
+        background: url("./Images/sunny.png");
+        background-repeat: no-repeat;
+        background-size: 10vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days2 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 20px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/sun.png");
+        background-repeat: no-repeat;
+        background-size: 10vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days3 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 20px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/sun\ \(1\).png");
+        background-repeat: no-repeat;
+        background-size: 10vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days4 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 20px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/rainy-day.png");
+        background-repeat: no-repeat;
+        background-size: 10vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+
+    .days5 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 20px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/rainy-day.png");
+        background-repeat: no-repeat;
+        background-size: 10vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+
+    .days6 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 20px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/cloudy-day.png");
+        background-repeat: no-repeat;
+        background-size: 10vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days7 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 20px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/storm.png");
+        background-repeat: no-repeat;
+        background-size: 10vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days h4 {
+        font-size: 1.5rem;
+    }
+
+    .days .dn {
+        margin: -28rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days2 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days2 .dn {
+        margin: -28rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days3 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days3 .dn {
+        margin: -28rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days4 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days4 .dn {
+        margin: -28rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days5 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days5 .dn {
+        margin: -28rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days6 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days6 .dn {
+        margin: -28rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days7 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days7 .dn {
+        margin: -28rem 2rem;
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (min-width:800px) and (max-width:900px) {
+    body {
+        overflow-y: scroll;
+    }
+
+    .body {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 118rem;
+        width: 77rem;
+        background: url(./Images/clear_sky.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body2 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 118rem;
+        width: 77rem;
+        background: url(./Images/rainy_day.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body3 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 118rem;
+        width: 77rem;
+        background: url(./Images/cloudy_day.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body4 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 118rem;
+        width: 77rem;
+        background: url(./Images/thunder_storm.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    #main {
+        display: block;
+        height: 87rem;
+        /* border: 2px solid black; */
+    }
+
+    #main .main-img {
+        background: url(./Images/sun.png);
+        background-repeat: no-repeat;
+        background-size: 35vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 30rem;
+        width: 30rem;
+        margin: 60px 16rem;
+        padding: 10px 120px;
+        animation: rotate 5s infinite ease-in-out;
+    }
+
+    @keyframes rotate {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .main-img:hover {
+        transition: ease-in-out;
+        transform: rotate3d(360deg);
+    }
+
+    #main .main-img2 {
+        background: url(./Images/sun.png);
+        background-repeat: no-repeat;
+        background-size: 35vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 30rem;
+        width: 30rem;
+        margin: 60px 16rem;
+        padding: 10px 120px;
+    }
+
+    #main .main-img3 {
+        background: url(./Images/sun\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: 35vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 30rem;
+        width: 30rem;
+        margin: 60px 16rem;
+        padding: 10px 120px;
+    }
+
+    #main .main-img4 {
+        background: url(./Images/rainy-day.png);
+        background-repeat: no-repeat;
+        background-size: 35vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 30rem;
+        width: 30rem;
+        margin: 60px 16rem;
+        padding: 10px 120px;
+    }
+
+    #main .main-img5 {
+        background: url(./Images/rainy-day.png);
+        background-repeat: no-repeat;
+        background-size: 35vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 30rem;
+        width: 30rem;
+        margin: 60px 16rem;
+        padding: 10px 120px;
+    }
+
+    #main .main-img6 {
+        background: url(./Images/cloudy-day.png);
+        background-repeat: no-repeat;
+        background-size: 35vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 30rem;
+        width: 30rem;
+        margin: 60px 16rem;
+        padding: 10px 120px;
+    }
+
+    #main .main-img7 {
+        background: url(./Images/storm.png);
+        background-repeat: no-repeat;
+        background-size: 35vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 30rem;
+        width: 30rem;
+        margin: 60px 16rem;
+        padding: 10px 120px;
+    }
+
+    /* #main #main-img img{
+        height: 300px;
+        width: 300px;
+        margin: 40px 120px;  
+        padding: 10px 120px;
+      }  */
+    #main #main-info {
+        margin: 2px 10px;
+        padding: 2px 100px;
+        position: absolute;
+        right: -2rem;
+        font-size: 2rem;
+        /* border: 2px solid black; */
+        background-color: rgba(255, 255, 255, 0.258);
+    }
+
+    #main #main-info .stats {
+        display: flex;
+    }
+
+    #main #main-info .stats img {
+        height: 4rem;
+        width: 4rem;
+        margin: 24px 5px;
+        padding: 2px 5px;
+    }
+
+    .second-container {
+        display: flex;
+        /* border: 2px solid black; */
+        height: 260px;
+        width: 1200px;
+        margin-top: 80px;
+        padding-right: 25px;
+        /* background-color: rgba(255, 255, 255, 0.281); */
+    }
+
+    .days {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 20px;
+        /* border: 2px solid black; */
+        text-align: center;
+        background: url("./Images/sunny.png");
+        background-repeat: no-repeat;
+        background-size: 10vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days2 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 20px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/sun.png");
+        background-repeat: no-repeat;
+        background-size: 10vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days3 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 20px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/sun\ \(1\).png");
+        background-repeat: no-repeat;
+        background-size: 10vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days4 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 20px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/rainy-day.png");
+        background-repeat: no-repeat;
+        background-size: 10vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+
+    .days5 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 20px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/rainy-day.png");
+        background-repeat: no-repeat;
+        background-size: 10vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+
+    .days6 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 20px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/cloudy-day.png");
+        background-repeat: no-repeat;
+        background-size: 10vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days7 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 20px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/storm.png");
+        background-repeat: no-repeat;
+        background-size: 10vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days h4 {
+        font-size: 1.5rem;
+    }
+
+    .days .dn {
+        margin: -28rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days2 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days2 .dn {
+        margin: -28rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days3 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days3 .dn {
+        margin: -28rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days4 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days4 .dn {
+        margin: -28rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days5 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days5 .dn {
+        margin: -28rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days6 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days6 .dn {
+        margin: -28rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days7 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days7 .dn {
+        margin: -28rem 2rem;
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (min-width:700px) and (max-width:800px) {
+    body {
+        overflow-y: scroll;
+    }
+
+    .body {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 120rem;
+        width: 77rem;
+        background: url(./Images/clear_sky.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body2 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 120rem;
+        width: 77rem;
+        background: url(./Images/rainy_day.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body3 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 120rem;
+        width: 77rem;
+        background: url(./Images/cloudy_day.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body4 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 120rem;
+        width: 77rem;
+        background: url(./Images/thunder_storm.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    #main {
+        display: block;
+        height: 87rem;
+        /* border: 2px solid black */
+    }
+
+    #main .main-img {
+        background: url(./Images/sun.png);
+        background-repeat: no-repeat;
+        background-size: 35vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 30rem;
+        width: 30rem;
+        margin: 60px 16rem;
+        padding: 10px 120px;
+        animation: rotate 5s infinite ease-in-out;
+    }
+
+    @keyframes rotate {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .main-img:hover {
+        transition: ease-in-out;
+        transform: rotate3d(360deg);
+    }
+
+    #main .main-img2 {
+        background: url(./Images/sun.png);
+        background-repeat: no-repeat;
+        background-size: 35vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 30rem;
+        width: 30rem;
+        margin: 60px 16rem;
+        padding: 10px 120px;
+    }
+
+    #main .main-img3 {
+        background: url(./Images/sun\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: 35vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 30rem;
+        width: 30rem;
+        margin: 60px 16rem;
+        padding: 10px 120px;
+    }
+
+    #main .main-img4 {
+        background: url(./Images/rainy-day.png);
+        background-repeat: no-repeat;
+        background-size: 35vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 30rem;
+        width: 30rem;
+        margin: 60px 16rem;
+        padding: 10px 120px;
+    }
+
+    #main .main-img5 {
+        background: url(./Images/rainy-day.png);
+        background-repeat: no-repeat;
+        background-size: 35vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 30rem;
+        width: 30rem;
+        margin: 60px 16rem;
+        padding: 10px 120px;
+    }
+
+    #main .main-img6 {
+        background: url(./Images/cloudy-day.png);
+        background-repeat: no-repeat;
+        background-size: 35vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 30rem;
+        width: 30rem;
+        margin: 60px 16rem;
+        padding: 10px 120px;
+    }
+
+    #main .main-img7 {
+        background: url(./Images/storm.png);
+        background-repeat: no-repeat;
+        background-size: 35vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 30rem;
+        width: 30rem;
+        margin: 60px 16rem;
+        padding: 10px 120px;
+    }
+
+    /* #main #main-img img{
+        height: 300px;
+        width: 300px;
+        margin: 40px 120px;  
+        padding: 10px 120px;
+      }  */
+    #main #main-info {
+        margin: 2px 10px;
+        padding: 2px 100px;
+        position: absolute;
+        right: -2rem;
+        font-size: 2rem;
+        /* border: 2px solid black; */
+        background-color: rgba(255, 255, 255, 0.258);
+    }
+
+    #main #main-info .stats {
+        display: flex;
+    }
+
+    #main #main-info .stats img {
+        height: 4rem;
+        width: 4rem;
+        margin: 24px 5px;
+        padding: 2px 5px;
+    }
+
+    .second-container {
+        display: flex;
+        /* border: 2px solid black; */
+        height: 260px;
+        width: 1200px;
+        margin-top: 80px;
+        padding-right: 25px;
+        /* background-color: rgba(255, 255, 255, 0.281); */
+    }
+
+    .days {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 20px;
+        text-align: center;
+        background: url("./Images/sunny.png");
+        background-repeat: no-repeat;
+        background-size: 10vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days2 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 20px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/sun.png");
+        background-repeat: no-repeat;
+        background-size: 10vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days3 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 20px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/sun\ \(1\).png");
+        background-repeat: no-repeat;
+        background-size: 10vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days4 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 20px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/rainy-day.png");
+        background-repeat: no-repeat;
+        background-size: 10vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+
+    .days5 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 20px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/rainy-day.png");
+        background-repeat: no-repeat;
+        background-size: 10vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+
+    .days6 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 20px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/cloudy-day.png");
+        background-repeat: no-repeat;
+        background-size: 10vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days7 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 20px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/storm.png");
+        background-repeat: no-repeat;
+        background-size: 10vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days h4 {
+        font-size: 1.5rem;
+    }
+
+    .days .dn {
+        margin: -28rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days2 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days2 .dn {
+        margin: -28rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days3 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days3 .dn {
+        margin: -28rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days4 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days4 .dn {
+        margin: -28rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days5 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days5 .dn {
+        margin: -28rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days6 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days6 .dn {
+        margin: -28rem 2rem;
+        font-size: 1.5rem;
+    }
+    .days7 h4 {
+        font-size: 1.5rem;
+    }
+
+    .days7 .dn {
+        margin: -28rem 2rem;
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (min-width:600px) and (max-width:700px) {
+    body {
+        overflow-y: scroll;
+    }
+
+    .body {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 105rem;
+        width: 101rem;
+        background: url(./Images/clear_sky.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body2 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 105rem;
+        width: 101rem;
+        background: url(./Images/rainy_day.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body3 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 105rem;
+        width: 101rem;
+        background: url(./Images/cloudy_day.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body4 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 105rem;
+        width: 101rem;
+        background: url(./Images/thunder_storm.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    #main {
+        display: block;
+        height: 900px;
+        /* border: 2px solid black; */
+    }
+
+    #main .main-img {
+        background: url(./Images/sun.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 34rem;
+        padding: 10px 120px;
+        animation: rotate 5s infinite ease-in-out;
+    }
+
+    @keyframes rotate {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .main-img:hover {
+        transition: ease-in-out;
+        transform: rotate3d(360deg);
+    }
+
+    #main .main-img2 {
+        background: url(./Images/sun.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 34rem;
+        padding: 10px 120px;
+    }
+
+    #main .main-img3 {
+        background: url(./Images/sun\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 34rem;
+        padding: 10px 120px;
+    }
+
+    #main .main-img4 {
+        background: url(./Images/rainy-day.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 34rem;
+        padding: 10px 120px;
+    }
+
+    #main .main-img5 {
+        background: url(./Images/rainy-day.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 34rem;
+        padding: 10px 120px;
+    }
+
+    #main .main-img6 {
+        background: url(./Images/cloudy-day.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 34rem;
+        padding: 10px 120px;
+    }
+
+    #main .main-img7 {
+        background: url(./Images/storm.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 34rem;
+        padding: 10px 120px;
+    }
+
+    /* #main #main-img img{
+        height: 300px;
+        width: 300px;
+        margin: 40px 120px;  
+        padding: 10px 120px;
+      }  */
+    #main #main-info {
+        margin: 2px 10px;
+        padding: 2px 100px;
+        position: absolute;
+        right: -27rem;
+        font-size: 20px;
+        /* border: 2px solid black; */
+        background-color: rgba(255, 255, 255, 0.258);
+    }
+
+    #main #main-info .stats {
+        display: flex;
+    }
+
+    #main #main-info .stats img {
+        height: 30px;
+        width: 30px;
+        margin: 19px 5px;
+        padding: 2px 5px;
+    }
+
+    .second-container {
+        display: flex;
+        /* border: 2px solid black; */
+        height: 260px;
+        width: 1280px;
+        margin-top: 200px;
+        padding-right: 25px;
+        /* background-color: rgba(255, 255, 255, 0.281); */
+    }
+
+    .days {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 35px;
+        text-align: center;
+        background: url("./Images/sunny.png");
+        background-repeat: no-repeat;
+        background-size: 18vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days2 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 35px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/sun.png");
+        background-repeat: no-repeat;
+        background-size: 20vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days3 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 35px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/sun\ \(1\).png");
+        background-repeat: no-repeat;
+        background-size: 20vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days4 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 35px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/rainy-day.png");
+        background-repeat: no-repeat;
+        background-size: 20vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+
+    .days5 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 35px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/rainy-day.png");
+        background-repeat: no-repeat;
+        background-size: 20vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+
+    .days6 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 35px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/cloudy-day.png");
+        background-repeat: no-repeat;
+        background-size: 20vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days7 {
+        height: 180px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 10px 35px;
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/storm.png");
+        background-repeat: no-repeat;
+        background-size: 20vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days h4 {
+        margin: 10rem 2rem;
+        font-size: 2rem;
+    }
+
+    .days .dn {
+        margin: -28rem 2rem;
+        font-size: 2rem;
+    }
+    .days2 h4 {
+        margin: 10rem 2rem;
+        font-size: 2rem;
+    }
+
+    .days2 .dn {
+        margin: -28rem 2rem;
+        font-size: 2rem;
+    }
+    .days3 h4 {
+        margin: 10rem 2rem;
+        font-size: 2rem;
+    }
+
+    .days3 .dn {
+        margin: -28rem 2rem;
+        font-size: 2rem;
+    }
+    .days4 h4 {
+        margin: 10rem 2rem;
+        font-size: 2rem;
+    }
+
+    .days4 .dn {
+        margin: -28rem 2rem;
+        font-size: 2rem;
+    }
+    .days5 h4 {
+        margin: 10rem 2rem;
+        font-size: 2rem;
+    }
+
+    .days5 .dn {
+        margin: -28rem 2rem;
+        font-size: 2rem;
+    }
+    .days6 h4 {
+        margin: 10rem 2rem;
+        font-size: 2rem;
+    }
+
+    .days6 .dn {
+        margin: -28rem 2rem;
+        font-size: 2rem;
+    }
+    .days7 h4 {
+        margin: 10rem 2rem;
+        font-size: 2rem;
+    }
+
+    .days7 .dn {
+        margin: -28rem 2rem;
+        font-size: 2rem;
+    }
+
+}
+
+@media (min-width:500px) and (max-width:600px) {
+    body {
+        overflow-y: scroll;
+    }
+
+    .body {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 419rem;
+        width: 73rem;
+        background: url(./Images/clear_sky.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body2 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 419rem;
+        width: 73rem;
+        background: url(./Images/rainy_day.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body3 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 419rem;
+        width: 73rem;
+        background: url(./Images/cloudy_day.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body4 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 419rem;
+        width: 73rem;
+        background: url(./Images/thunder_storm.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    #search-input {
+        height: 3rem;
+        width: 40rem;
+        border: none;
+        border-radius: 10px;
+        font-size: 18px;
+        background-color: rgba(255, 255, 255, 0.708);
+    }
+
+    #search-button {
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    #main {
+        display: block;
+        height: 94rem;
+        /* border: 2px solid black; */
+    }
+
+    #main .main-img {
+        background: url(./Images/sun.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 20rem;
+        padding: 10px 120px;
+        animation: rotate 5s infinite ease-in-out;
+    }
+
+    @keyframes rotate {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .main-img:hover {
+        transition: ease-in-out;
+        transform: rotate3d(360deg);
+    }
+
+    #main .main-img2 {
+        background: url(./Images/sun.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 20rem;
+        padding: 10px 120px;
+    }
+
+    #main .main-img3 {
+        background: url(./Images/sun\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 20rem;
+        padding: 10px 120px;
+    }
+
+    #main .main-img4 {
+        background: url(./Images/rainy-day.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 20rem;
+        padding: 10px 120px;
+    }
+
+    #main .main-img5 {
+        background: url(./Images/rainy-day.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 20rem;
+        padding: 10px 120px;
+    }
+
+    #main .main-img6 {
+        background: url(./Images/cloudy-day.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 20rem;
+        padding: 10px 120px;
+    }
+
+    #main .main-img7 {
+        background: url(./Images/storm.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 20rem;
+        padding: 10px 120px;
+    }
+
+    /* #main #main-img img{
+        height: 300px;
+        width: 300px;
+        margin: 40px 120px;  
+        padding: 10px 120px;
+      }  */
+    #main #main-info {
+        margin: 2px 10px;
+        padding: 2px 100px;
+        position: absolute;
+        right: -27rem;
+        font-size: 3rem;
+        /* border: 2px solid black; */
+        background-color: rgba(255, 255, 255, 0.258);
+    }
+
+    #main #main-info .stats {
+        display: flex;
+    }
+
+    #main #main-info .stats img {
+        height: 8rem;
+        width: 8rem;
+        margin: 2rem 5px;
+        padding: 2px 5px;
+    }
+
+    .second-container {
+        display: block;
+        /* border: 2px solid black; */
+        height: 273rem;
+        width: 41rem;
+        margin-top: 200px;
+        padding-left: 85px;
+        /* background-color: rgba(255, 255, 255, 0.281); */
+        position: absolute;
+        right: -27rem;
+    }
+
+    .days {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        background: url("./Images/sunny.png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days2 {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        background: url("./Images/sun.png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days3 {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        background: url("./Images/sun\ \(1\).png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days4 {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        background: url("./Images/rainy-day.png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+
+    .days5 {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        background: url("./Images/rainy-day.png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+
+    .days6 {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        background: url("./Images/cloudy-day.png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days7 {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        background: url("./Images/storm.png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+    .days2 h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days2 .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+    .days3 h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days3 .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+    .days4 h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days4 .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+    .days5 h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days5 .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+    .days6 h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days6 .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+    .days7 h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days7 .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+
+}
+
+@media (min-width:400px) and (max-width:500px) {
+    body {
+        overflow-y: scroll;
+    }
+
+    .body {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 419rem;
+        width: 73rem;
+        background: url(./Images/clear_sky.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body2 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 419rem;
+        width: 73rem;
+        background: url(./Images/rainy_day.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body3 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 419rem;
+        width: 73rem;
+        background: url(./Images/cloudy_day.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body4 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 419rem;
+        width: 73rem;
+        background: url(./Images/thunder_storm.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    #search-input {
+        height: 3rem;
+        width: 40rem;
+        border: none;
+        border-radius: 10px;
+        font-size: 18px;
+        background-color: rgba(255, 255, 255, 0.708);
+    }
+
+    #search-button {
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    #main {
+        display: block;
+        height: 94rem;
+        /* border: 2px solid black; */
+    }
+
+    #main .main-img {
+        background: url(./Images/sun.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 357px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+        animation: rotate 5s infinite ease-in-out;
+    }
+
+    @keyframes rotate {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .main-img:hover {
+        transition: ease-in-out;
+        transform: rotate3d(360deg);
+    }
+
+    #main .main-img2 {
+        background: url(./Images/sun.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 357px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+    }
+
+    #main .main-img3 {
+        background: url(./Images/sun\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 357px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+    }
+
+    #main .main-img4 {
+        background: url(./Images/rainy-day.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 357px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+    }
+
+    #main .main-img5 {
+        background: url(./Images/rainy-day.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 357px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+    }
+
+    #main .main-img6 {
+        background: url(./Images/cloudy-day.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 357px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+    }
+
+    #main .main-img7 {
+        background: url(./Images/storm.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 357px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+    }
+
+    /* #main #main-img img{
+        height: 300px;
+        width: 300px;
+        margin: 40px 120px;  
+        padding: 10px 120px;
+      }  */
+    #main #main-info {
+        margin: 2px 10px;
+        padding: 2px 100px;
+        position: absolute;
+        right: -39rem;
+        font-size: 3rem;
+        /* border: 2px solid black; */
+        background-color: rgba(255, 255, 255, 0.258);
+    }
+
+    #main #main-info .stats {
+        display: flex;
+    }
+
+    #main #main-info .stats img {
+        height: 8rem;
+        width: 8rem;
+        margin: 24px 5px;
+        padding: 2px 5px;
+    }
+
+    .second-container {
+        display: block;
+        /* border: 2px solid black; */
+        height: 273rem;
+        width: 41rem;
+        margin-top: 200px;
+        padding-left: 85px;
+        /* background-color: rgba(255, 255, 255, 0.281); */
+        position: absolute;
+        right: -39rem;
+    }
+
+    .days {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        background: url("./Images/sunny.png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days2 {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        background: url("./Images/sun.png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days3 {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        background: url("./Images/sun\ \(1\).png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days4 {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        background: url("./Images/rainy-day.png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+
+    .days5 {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        background: url("./Images/rainy-day.png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+
+    .days6 {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        background: url("./Images/cloudy-day.png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days7 {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        background: url("./Images/storm.png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+    .days2 h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days2 .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+    .days3 h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days3 .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+    .days4 h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days4 .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+    .days5 h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days5 .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+    .days6 h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days6 .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+    .days7 h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days7 .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+
+}
+
+@media (min-width:300px) and (max-width:400px) {
+    body {
+        overflow-y: scroll;
+    }
+
+    .body {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 419rem;
+        width: 73rem;
+        background: url(./Images/clear_sky.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body2 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 419rem;
+        width: 73rem;
+        background: url(./Images/rainy_day.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body3 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 419rem;
+        width: 73rem;
+        background: url(./Images/cloudy_day.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body4 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 419rem;
+        width: 73rem;
+        background: url(./Images/thunder_storm.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    #search-input {
+        height: 3rem;
+        width: 40rem;
+        border: none;
+        border-radius: 10px;
+        font-size: 18px;
+        background-color: rgba(255, 255, 255, 0.708);
+    }
+
+    #search-button {
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    #main {
+        display: block;
+        height: 94rem;
+        /* border: 2px solid black; */
+    }
+
+    #main .main-img {
+        background: url(./Images/sun.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+        animation: rotate 5s infinite ease-in-out;
+    }
+
+    @keyframes rotate {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .main-img:hover {
+        transition: ease-in-out;
+        transform: rotate3d(360deg);
+    }
+
+    #main .main-img2 {
+        background: url(./Images/sun.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+    }
+
+    #main .main-img3 {
+        background: url(./Images/sun\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+    }
+
+    #main .main-img4 {
+        background: url(./Images/rainy-day.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+    }
+
+    #main .main-img5 {
+        background: url(./Images/rainy-day.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+    }
+
+    #main .main-img6 {
+        background: url(./Images/cloudy-day.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+    }
+
+    #main .main-img7 {
+        background: url(./Images/storm.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+    }
+
+    /* #main #main-img img{
+        height: 300px;
+        width: 300px;
+        margin: 40px 120px;  
+        padding: 10px 120px;
+      }  */
+    #main #main-info {
+        margin: 2px 10px;
+        padding: 2px 100px;
+        position: absolute;
+        right: -39rem;
+        font-size: 3rem;
+        /* border: 2px solid black; */
+        background-color: rgba(255, 255, 255, 0.258);
+    }
+
+    #main #main-info .stats {
+        display: flex;
+    }
+
+    #main #main-info .stats img {
+        height: 8rem;
+        width: 8rem;
+        margin: 24px 5px;
+        padding: 2px 5px;
+    }
+
+    .second-container {
+        display: block;
+        /* border: 2px solid black; */
+        height: 273rem;
+        width: 41rem;
+        margin-top: 200px;
+        padding-left: 85px;
+        /* background-color: rgba(255, 255, 255, 0.281); */
+        position: absolute;
+        right: -39rem;
+    }
+
+    .days {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        background: url("./Images/sunny.png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days2 {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        background: url("./Images/sun.png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days3 {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        background: url("./Images/sun\ \(1\).png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days4 {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        background: url("./Images/rainy-day.png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+
+    .days5 {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        background: url("./Images/rainy-day.png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+
+    .days6 {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        background: url("./Images/cloudy-day.png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days7 {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        background: url("./Images/storm.png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+    .days2 h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days2 .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+    .days3 h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days3 .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+    .days4 h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days4 .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+    .days5 h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days5 .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+    .days6 h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days6 .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+    .days7 h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days7 .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+}
+
+@media (min-width:200px) and (max-width:300px) {
+    body {
+        overflow-y: scroll;
+    }
+
+    .body {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 419rem;
+        width: 73rem;
+        background: url(./Images/clear_sky.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body2 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 419rem;
+        width: 73rem;
+        background: url(./Images/rainy_day.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body3 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 419rem;
+        width: 73rem;
+        background: url(./Images/cloudy_day.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    .body4 {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        height: 419rem;
+        width: 73rem;
+        background: url(./Images/thunder_storm.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        font-family: 'Jost', sans-serif;
+        /* overflow-y: scroll; */
+    }
+
+    #search-input {
+        height: 3rem;
+        width: 40rem;
+        border: none;
+        border-radius: 10px;
+        font-size: 18px;
+        background-color: rgba(255, 255, 255, 0.708);
+    }
+
+    #search-button {
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    #main {
+        display: block;
+        height: 94rem;
+        /* border: 2px solid black; */
+    }
+
+    #main .main-img {
+        background: url(./Images/sun.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+        animation: rotate 5s infinite ease-in-out;
+    }
+
+    @keyframes rotate {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .main-img:hover {
+        transition: ease-in-out;
+        transform: rotate3d(360deg);
+    }
+
+    #main .main-img2 {
+        background: url(./Images/sun.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+    }
+
+    #main .main-img3 {
+        background: url(./Images/sun\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+    }
+
+    #main .main-img4 {
+        background: url(./Images/rainy-day.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+    }
+
+    #main .main-img5 {
+        background: url(./Images/rainy-day.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+    }
+
+    #main .main-img6 {
+        background: url(./Images/cloudy-day.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+    }
+
+    #main .main-img7 {
+        background: url(./Images/storm.png);
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-y: center;
+        background-position-x: center;
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 300px;
+        margin: 60px 386px;
+        padding: 10px 120px;
+    }
+
+    /* #main #main-img img{
+        height: 300px;
+        width: 300px;
+        margin: 40px 120px;  
+        padding: 10px 120px;
+      }  */
+    #main #main-info {
+        margin: 2px 10px;
+        padding: 2px 100px;
+        position: absolute;
+        right: -39rem;
+        font-size: 3rem;
+        /* border: 2px solid black; */
+        background-color: rgba(255, 255, 255, 0.258);
+    }
+
+    #main #main-info .stats {
+        display: flex;
+    }
+
+    #main #main-info .stats img {
+        height: 8rem;
+        width: 8rem;
+        margin: 2rem 5px;
+        padding: 2px 5px;
+    }
+
+    .second-container {
+        display: block;
+        /* border: 2px solid black; */
+        height: 273rem;
+        width: 41rem;
+        margin-top: 200px;
+        padding-left: 85px;
+        /* background-color: rgba(255, 255, 255, 0.281); */
+        position: absolute;
+        right: -39rem;
+    }
+
+    .days {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        background: url("./Images/sunny.png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days2 {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/sun.png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days3 {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/sun\ \(1\).png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days4 {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/rainy-day.png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+
+    .days5 {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/rainy-day.png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+
+    .days6 {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/cloudy-day.png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days7 {
+        height: 580px;
+        width: 500px;
+        margin: 5rem 10px;
+        padding: 10px 15px;
+        border: 2px solid rgba(0, 0, 0, 0.247);
+        text-align: center;
+        /* border: 2px solid red; */
+        background: url("./Images/storm.png");
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
+    .days h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+    .days2 h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days2 .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+    .days3 h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days3 .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+    .days4 h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days4 .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+    .days5 h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days5 .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+    .days6 h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days6 .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+    .days7 h4 {
+        margin: 32rem 2rem;
+        font-size: 4rem;
+    }
+
+    .days7 .dn {
+        margin: -71rem 2rem;
+        font-size: 4rem;
+    }
+}
